@@ -145,7 +145,7 @@ export function ExecutiveSummary() {
                     <span className="font-semibold">£8,500</span>
                   </div>
                   <div className="flex justify-between items-center pb-2 border-b border-border">
-                    <span className="text-muted-foreground">Hosting & Maintenance (12 months)</span>
+                    <span className="text-muted-foreground">Hosting & Maintenance (£100/month)</span>
                     <span className="font-semibold">£1,200</span>
                   </div>
                   <div className="flex justify-between items-center pb-2 border-b border-border">

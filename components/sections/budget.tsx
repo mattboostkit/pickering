@@ -32,10 +32,7 @@ const budgetBreakdown = [
     category: "Website Hosting & Maintenance",
     amount: 1200,
     items: [
-      { description: "Vercel hosting (12 months)", cost: 240 },
-      { description: "Sanity CMS subscription (12 months)", cost: 180 },
-      { description: "Domain & SSL certificates", cost: 60 },
-      { description: "Monthly maintenance & updates (£100/month)", cost: 720 },
+      { description: "Hosting, CMS, domain & maintenance (£100/month × 12)", cost: 1200 },
     ],
   },
   {
