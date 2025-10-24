@@ -6,10 +6,9 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const navigation = [
-  { name: "Overview", href: "#hero" },
+  { name: "Overview", href: "#overview" },
   { name: "Current State", href: "#current-state" },
   { name: "Strategy", href: "#strategy" },
-  { name: "Website Plan", href: "#website" },
   { name: "Campaigns", href: "#campaigns" },
   { name: "Budget & ROI", href: "#budget" },
   { name: "Next Steps", href: "#next-steps" },
