@@ -50,15 +50,15 @@ export function Footer() {
                 </div>
               </div>
               <a
-                href="tel:+441234567890"
+                href="tel:+447975876376"
                 className="flex items-center gap-2 hover:text-white transition-colors"
               >
                 <Phone size={16} />
-                <span>+44 (0) 123 456 7890</span>
+                <span>07975 876376</span>
               </a>
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>Liverpool, UK</span>
+                <span>Tunbridge Wells, UK</span>
               </div>
               <a
                 href="https://jjlmedia.co.uk"
