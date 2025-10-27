@@ -60,11 +60,11 @@ const pillars = [
     title: "Content & Community",
     description: "Establish Pickering as the go-to cancer support story in Tunbridge Wells",
     keyPoints: [
-      "Weekly blog posts & patient stories",
-      "Monthly video series",
-      "Active social media presence",
+      "Professional social media management (2 posts/week)",
+      "Strategic storytelling across Facebook, Instagram & LinkedIn",
+      "Monthly video content & patient stories",
       "Email newsletter program",
-      "Community engagement campaigns",
+      "Alignment with awareness days (Mental Health, World Cancer Day)",
     ],
   },
   {

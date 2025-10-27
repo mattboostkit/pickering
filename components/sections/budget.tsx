@@ -48,14 +48,21 @@ const budgetBreakdown = [
   },
   {
     category: "Marketing & Advertising",
-    amount: 4000,
+    amount: 3500,
     items: [
       { description: "Facebook/Instagram ads (Q1-Q4)", cost: 1500 },
       { description: "Email marketing platform", cost: 180 },
       { description: "Local media advertising", cost: 500 },
       { description: "Event promotion", cost: 800 },
-      { description: "SEO tools & software", cost: 400 },
-      { description: "Content distribution", cost: 620 },
+      { description: "SEO tools & software", cost: 520 },
+    ],
+  },
+  {
+    category: "Social Media Management",
+    amount: 3840,
+    items: [
+      { description: "Professional social media management (10 hours/month × 12)", cost: 3600 },
+      { description: "Monthly filming day (8 hours video content capture)", cost: 240 },
     ],
   },
   {
@@ -70,8 +77,8 @@ const budgetBreakdown = [
   },
   {
     category: "Contingency",
-    amount: 300,
-    items: [{ description: "Unexpected costs, revisions, additional training", cost: 300 }],
+    amount: 800,
+    items: [{ description: "Unexpected costs, revisions, additional training", cost: 800 }],
   },
 ]
 
@@ -158,11 +165,11 @@ export function Budget() {
           <CardContent className="p-8 text-center">
             <div className="flex items-center justify-center gap-3 mb-4">
               <PoundSterling className="w-10 h-10" />
-              <div className="text-6xl font-bold">22,000</div>
+              <div className="text-6xl font-bold">25,840</div>
             </div>
             <div className="text-xl mb-2">Total Year 1 Investment</div>
             <div className="text-sm opacity-80">
-              Development & Infrastructure: £9,700 | Marketing & Campaigns: £12,300
+              Development & Infrastructure: £9,700 | Marketing, Social & Campaigns: £16,140
             </div>
           </CardContent>
         </Card>
@@ -205,8 +212,8 @@ export function Budget() {
                   <div className="text-sm text-muted-foreground">Revenue</div>
                 </div>
                 <div className="p-3 bg-muted rounded-lg">
-                  <div className="text-2xl font-bold text-brand-green">100% ROI</div>
-                  <div className="text-xs text-muted-foreground">£23,000 net profit</div>
+                  <div className="text-2xl font-bold text-brand-green">74% ROI</div>
+                  <div className="text-xs text-muted-foreground">£19,160 net profit</div>
                 </div>
               </div>
             </CardContent>
@@ -235,8 +242,8 @@ export function Budget() {
                   <div className="text-sm text-muted-foreground">Revenue</div>
                 </div>
                 <div className="p-3 bg-brand-orange/10 rounded-lg">
-                  <div className="text-2xl font-bold text-brand-orange">204% ROI</div>
-                  <div className="text-xs text-muted-foreground">£44,800 net profit</div>
+                  <div className="text-2xl font-bold text-brand-orange">159% ROI</div>
+                  <div className="text-xs text-muted-foreground">£40,960 net profit</div>
                 </div>
               </div>
             </CardContent>
@@ -265,8 +272,8 @@ export function Budget() {
                   <div className="text-sm text-muted-foreground">Revenue</div>
                 </div>
                 <div className="p-3 bg-muted rounded-lg">
-                  <div className="text-2xl font-bold text-brand-green">343% ROI</div>
-                  <div className="text-xs text-muted-foreground">£75,500 net profit</div>
+                  <div className="text-2xl font-bold text-brand-green">277% ROI</div>
+                  <div className="text-xs text-muted-foreground">£71,660 net profit</div>
                 </div>
               </div>
             </CardContent>

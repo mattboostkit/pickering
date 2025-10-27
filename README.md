@@ -234,9 +234,11 @@ For questions or support:
 
 Based on realistic expectations for a charity building from minimal brand presence:
 
-- **Conservative:** £45,000 (100% ROI) - 50 monthly donors, limited brand awareness
-- **Most Likely:** £66,800 (204% ROI) - 75 monthly donors, steady growth ⭐
-- **Optimistic:** £97,500 (343% ROI) - 100 monthly donors, strong engagement
+- **Conservative:** £45,000 (74% ROI) - 50 monthly donors, limited brand awareness
+- **Most Likely:** £66,800 (159% ROI) - 75 monthly donors, steady growth ⭐
+- **Optimistic:** £97,500 (277% ROI) - 100 monthly donors, strong engagement
+
+**Note:** Investment increased to £25,840 to include professional social media management (10 hours/month) and monthly filming days, essential for effective storytelling and donor engagement.
 
 ## 🔒 Security & Privacy
 
