@@ -122,7 +122,7 @@ export function Hero() {
 
               <div className="bg-white rounded-2xl p-6 shadow-lg border border-border">
                 <div className="text-3xl md:text-4xl font-bold text-pickering-purple mb-2">
-                  <CountUpMetric end={159} />%
+                  <CountUpMetric end={167} />%
                 </div>
                 <div className="text-sm text-muted-foreground font-medium">
                   Return on Investment
@@ -208,7 +208,7 @@ export function Hero() {
                     <div className="text-xl font-medium opacity-90">Projected Year 1 Revenue</div>
                     <div className="mt-6 flex gap-4 justify-center">
                       <div className="text-center">
-                        <div className="text-2xl font-bold">159%</div>
+                        <div className="text-2xl font-bold">167%</div>
                         <div className="text-sm opacity-75">ROI</div>
                       </div>
                       <div className="w-px bg-white/30" />

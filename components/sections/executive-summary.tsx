@@ -137,7 +137,7 @@ export function ExecutiveSummary() {
                   <h3 className="text-2xl font-bold text-brand-navy">Investment Required</h3>
                 </div>
 
-                <div className="text-5xl font-bold text-brand-navy mb-6">£25,840</div>
+                <div className="text-5xl font-bold text-brand-navy mb-6">£25,000</div>
 
                 <div className="space-y-3">
                   <div className="flex justify-between items-center pb-2 border-b border-border">
@@ -154,19 +154,15 @@ export function ExecutiveSummary() {
                   </div>
                   <div className="flex justify-between items-center pb-2 border-b border-border">
                     <span className="text-muted-foreground">Marketing & Ads</span>
-                    <span className="font-semibold">£3,500</span>
+                    <span className="font-semibold">£3,460</span>
                   </div>
                   <div className="flex justify-between items-center pb-2 border-b border-border">
                     <span className="text-muted-foreground">Social Media Management</span>
                     <span className="font-semibold">£3,840</span>
                   </div>
-                  <div className="flex justify-between items-center pb-2 border-b border-border">
+                  <div className="flex justify-between items-center pb-2">
                     <span className="text-muted-foreground">Campaign Execution</span>
                     <span className="font-semibold">£4,500</span>
-                  </div>
-                  <div className="flex justify-between items-center pb-2">
-                    <span className="text-muted-foreground">Contingency</span>
-                    <span className="font-semibold">£800</span>
                   </div>
                 </div>
               </CardContent>
@@ -182,7 +178,7 @@ export function ExecutiveSummary() {
                   <div>
                     <div className="flex justify-between items-center mb-2">
                       <span className="text-sm opacity-90">Conservative</span>
-                      <span className="text-sm font-semibold bg-white/20 px-2 py-1 rounded">74% ROI</span>
+                      <span className="text-sm font-semibold bg-white/20 px-2 py-1 rounded">80% ROI</span>
                     </div>
                     <div className="text-3xl font-bold mb-1">£45,000</div>
                     <div className="w-full h-2 bg-white/20 rounded-full overflow-hidden">
@@ -194,7 +190,7 @@ export function ExecutiveSummary() {
                   <div>
                     <div className="flex justify-between items-center mb-2">
                       <span className="text-sm font-semibold">Most Likely</span>
-                      <span className="text-sm font-semibold bg-brand-orange px-2 py-1 rounded">159% ROI</span>
+                      <span className="text-sm font-semibold bg-brand-orange px-2 py-1 rounded">167% ROI</span>
                     </div>
                     <div className="text-4xl font-bold mb-1">£66,800</div>
                     <div className="w-full h-3 bg-white/20 rounded-full overflow-hidden">
@@ -206,7 +202,7 @@ export function ExecutiveSummary() {
                   <div>
                     <div className="flex justify-between items-center mb-2">
                       <span className="text-sm opacity-90">Optimistic</span>
-                      <span className="text-sm font-semibold bg-white/20 px-2 py-1 rounded">277% ROI</span>
+                      <span className="text-sm font-semibold bg-white/20 px-2 py-1 rounded">290% ROI</span>
                     </div>
                     <div className="text-3xl font-bold mb-1">£97,500</div>
                     <div className="w-full h-2 bg-white/20 rounded-full overflow-hidden">

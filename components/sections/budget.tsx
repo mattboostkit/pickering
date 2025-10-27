@@ -48,13 +48,13 @@ const budgetBreakdown = [
   },
   {
     category: "Marketing & Advertising",
-    amount: 3500,
+    amount: 3460,
     items: [
       { description: "Facebook/Instagram ads (Q1-Q4)", cost: 1500 },
       { description: "Email marketing platform", cost: 180 },
       { description: "Local media advertising", cost: 500 },
       { description: "Event promotion", cost: 800 },
-      { description: "SEO tools & software", cost: 520 },
+      { description: "SEO tools & software", cost: 480 },
     ],
   },
   {
@@ -74,11 +74,6 @@ const budgetBreakdown = [
       { description: '"Sponsor a Therapy Hour"', cost: 500 },
       { description: '"Light Up Pickering"', cost: 500 },
     ],
-  },
-  {
-    category: "Contingency",
-    amount: 800,
-    items: [{ description: "Unexpected costs, revisions, additional training", cost: 800 }],
   },
 ]
 
@@ -165,11 +160,11 @@ export function Budget() {
           <CardContent className="p-8 text-center">
             <div className="flex items-center justify-center gap-3 mb-4">
               <PoundSterling className="w-10 h-10" />
-              <div className="text-6xl font-bold">25,840</div>
+              <div className="text-6xl font-bold">25,000</div>
             </div>
             <div className="text-xl mb-2">Total Year 1 Investment</div>
             <div className="text-sm opacity-80">
-              Development & Infrastructure: £9,700 | Marketing, Social & Campaigns: £16,140
+              Development & Infrastructure: £9,700 | Marketing, Social & Campaigns: £15,300
             </div>
           </CardContent>
         </Card>
@@ -212,8 +207,8 @@ export function Budget() {
                   <div className="text-sm text-muted-foreground">Revenue</div>
                 </div>
                 <div className="p-3 bg-muted rounded-lg">
-                  <div className="text-2xl font-bold text-brand-green">74% ROI</div>
-                  <div className="text-xs text-muted-foreground">£19,160 net profit</div>
+                  <div className="text-2xl font-bold text-brand-green">80% ROI</div>
+                  <div className="text-xs text-muted-foreground">£20,000 net profit</div>
                 </div>
               </div>
             </CardContent>
@@ -242,8 +237,8 @@ export function Budget() {
                   <div className="text-sm text-muted-foreground">Revenue</div>
                 </div>
                 <div className="p-3 bg-brand-orange/10 rounded-lg">
-                  <div className="text-2xl font-bold text-brand-orange">159% ROI</div>
-                  <div className="text-xs text-muted-foreground">£40,960 net profit</div>
+                  <div className="text-2xl font-bold text-brand-orange">167% ROI</div>
+                  <div className="text-xs text-muted-foreground">£41,800 net profit</div>
                 </div>
               </div>
             </CardContent>
@@ -272,8 +267,8 @@ export function Budget() {
                   <div className="text-sm text-muted-foreground">Revenue</div>
                 </div>
                 <div className="p-3 bg-muted rounded-lg">
-                  <div className="text-2xl font-bold text-brand-green">277% ROI</div>
-                  <div className="text-xs text-muted-foreground">£71,660 net profit</div>
+                  <div className="text-2xl font-bold text-brand-green">290% ROI</div>
+                  <div className="text-xs text-muted-foreground">£72,500 net profit</div>
                 </div>
               </div>
             </CardContent>
